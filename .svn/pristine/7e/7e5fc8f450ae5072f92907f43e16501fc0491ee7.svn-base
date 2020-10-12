@@ -1,0 +1,1 @@
+sudo nohup /local/kibana/bin/kibana >/tmp/kibana.log 2>/tmp/kibana.log &

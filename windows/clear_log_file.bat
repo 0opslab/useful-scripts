@@ -1,0 +1,1 @@
+forfiles /p "D:bigantlogs" /s /m *.* /d -3 /c "cmd /c del @path"

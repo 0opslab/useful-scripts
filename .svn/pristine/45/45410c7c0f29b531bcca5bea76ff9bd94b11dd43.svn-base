@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=C:/Users/Administrator/Downloads/weixin-java-cp-3.5.0.jar -DgroupId=com.github.binarywang -DartifactId=weixin-java-cp -Dversion=3.5.0 -Dpackaging=jar

@@ -1,0 +1,7 @@
+## springoot 线上部署
+nohup java -jar tianshu-app-1.0.0.jar --spring.profiles.active=pro >> /data/log/tianshu-run.log &
+
+java -jar swdl-0.0.1-SNAPSHOT.jar 
+  --spring.profiles.active=test   
+  -Dspring.config.location=application-test.yml
+java -jar projectName.jar --spring.config.location=D:\JavaSoft\myapplication.properties

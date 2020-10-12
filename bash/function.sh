@@ -151,6 +151,7 @@ java_info(){
 
 }
 
+<<<<<<< HEAD
 #@func - 获取用户指定用户的进程PID=`GetPID root TestApp` echo $PID
 function GetPID(){
  PsUser=$1
@@ -158,4 +159,8 @@ function GetPID(){
  pid=`ps -u $PsUser|grep $PsName|grep -v grep|grep -v vi|grep -v dbx | grep -v tail|grep -v start|grep -v stop |sed -n 1p |awk '{print $1}'`
  echo $pid
 }
+=======
+
+
+>>>>>>> 14a775bf3bab42c01e750e35a9aa293fd25ab015
 

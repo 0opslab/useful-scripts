@@ -49,7 +49,10 @@ redis_usage() {
         exit 1
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 14a775bf3bab42c01e750e35a9aa293fd25ab015
 case "$2" in
   start) redis_start ;;
   stop)  redis_stop  ;;

@@ -1,7 +1,5 @@
 # cat function.sh >> ~/.bashrc
 
-
-
 # User specific aliases and functions
 #@func - 通过netstat统计各个状态的信息
 net_count(){
